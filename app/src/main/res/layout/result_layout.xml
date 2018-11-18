@@ -87,7 +87,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="月56"
+                android:text="火56"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -111,7 +111,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="火34"
+                android:text="水34"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -135,7 +135,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="火56"
+                android:text="水56"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 

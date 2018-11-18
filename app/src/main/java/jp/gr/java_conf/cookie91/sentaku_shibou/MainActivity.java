@@ -53,13 +53,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void shoukan(View v) {
-
         yome = (String) spinner.getSelectedItem();
-        int seed = spinner.getSelectedItemPosition();
+
+        int seed = ((spinner.getSelectedItemPosition())+1) * (int)(java.lang.Math.random()*114514);
 
         Random r = new Random(seed);
-        
-        Math = db.Math[r.nextInt(db.Math.length)];
+        int mathnum = r.nextInt(100);
+
+        if (mathnum <= 49) {
+            Math = "数学α";
+        } else {
+            Math = "数学β";
+        }
 
         if (Math.equals("数学β")) {
             Mon56 = "数学";
@@ -185,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
 
     public class subjectsDB {
 
-        String[] Math  = {"数学α", "数学β"};
+        String[] Math  = {"数学β", "数学α"};
         String[] Mon56 = {"数学", "倫理", "日本史1", "世界史1b", "地理1", "地学", "数学演習", "古文2", "体育"};
         String[] Tue56 = {"政経", "日本史2", "物理", "情報", "英語2a", "漢文", "小論文"};
         String[] Wed45 = {"倫理", "世界史1a", "地理1", "物理", "生物", "ドイツ語", "フランス語", "中国語", "古文1", "体育", "音楽"};
