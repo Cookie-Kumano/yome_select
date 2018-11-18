@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">選択志望届</string>
+    <string-array name="yome_list">
+    <item>瑞鳳</item>
+    <item>熊野</item>
+    <item>舞風</item>
+    <item>島風</item>
+    <item>神風</item>
+    <item>秋月</item>
+</string-array>
+</resources>
